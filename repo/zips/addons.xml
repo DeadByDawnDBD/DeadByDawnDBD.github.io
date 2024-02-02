@@ -1,0 +1,971 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="DeadByDawnDBD" name="DBD Repo" version="0.1" provider-name="DeadByDawnDBD">
+    <extension point="xbmc.addon.repository" name="Example Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/DeadByDawnDBD/repository.example/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/DeadByDawnDBD/repository.example/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/DeadByDawnDBD/repository.example/master/repo/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>DBD Repo</summary>
+        <description>Please Work</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon><addon id="metadata.tvshows.themoviedb.org.python" name="TMDb TV Shows" version="1.6.5" provider-name="Team Kodi">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="xbmc.metadata" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.metadata.scraper.tvshows" library="main.py" cachepersistence="00:15" />
+  <extension point="xbmc.addon.metadata">
+    <reuselanguageinvoker>true</reuselanguageinvoker>
+    <news>1.6.5
+made search of NFO file for a UniqueID less aggressive
+updated language files
+	</news>
+    <platform>all</platform>
+    <license>GPL-3.0-or-later</license>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
+	<forum>https://forum.kodi.tv/showthread.php?tid=357232</forum>
+    <website>https://www.themoviedb.org</website>
+    <source>https://github.com/xbmc/metadata.tvshows.themoviedb.org.python</source>
+    <summary lang="be_BY">Атрымліваць метаданыя серыялаў з themoviedb.org</summary>
+    <summary lang="ca_ES">Agafa les metadades de les sèries de themoviedb.org</summary>
+    <summary lang="cs_CZ">Získat metadata pro seriály z themoviedb.org</summary>
+    <summary lang="da_DK">Hent metadata til tv-shows fra themoviedb.org</summary>
+    <summary lang="de_DE">TV-Show-Metadaten von themoviedb.org abrufen</summary>
+    <summary lang="en_GB">Fetch TV Show metadata from themoviedb.org</summary>
+    <summary lang="es_ES">Obtener metadatos de Serie de TV de themoviedb.org</summary>
+    <summary lang="es_MX">Obtener metadatos de series de themoviedb.org</summary>
+    <summary lang="et_EE">Hangi seriaali metaandmed allikast themoviedb.org</summary>
+    <summary lang="fi_FI">The Movie Database (TMDB) -tietolähde televisiosarjoille</summary>
+    <summary lang="fr_FR">Récupérer les métadonnées d'une série depuis themoviedb.org</summary>
+    <summary lang="hr_HR">Preuzmite metapodatke TV serija s themoviedb.org</summary>
+    <summary lang="id_ID">Ambil metadata Acara TV dari themoviedb.org</summary>
+    <summary lang="is_IS">Sækja lýsigögn sjónvarpsþátta frá themoviedb.org</summary>
+    <summary lang="it_IT">Recupera i metadati dei programmi TV da themovedb.org</summary>
+    <summary lang="ko_KR">themoviedb.org에서 TV쇼 메타데이터를 가져옵니다</summary>
+    <summary lang="lv_LV">Iegūst TV pārraides datus no themoviedb.org vietnes</summary>
+    <summary lang="my_MM">themoviedb.org မှ TV Show မက်တာဒေတာကို ရယူပါ</summary>
+    <summary lang="nl_NL">Haal metadata van tv-programma's op van themoviedb.org</summary>
+    <summary lang="pl_PL">Pobieraj metadane programów telewizyjnch z themoviedb.org</summary>
+    <summary lang="pt_BR">Obter metadados de Séries em themoviedb.org</summary>
+    <summary lang="ru_RU">Получение метаданных о сериалах с сайта themoviedb.org</summary>
+    <summary lang="sv_SE">Hämta metadata för TV-serier från themoviedb.org</summary>
+    <summary lang="tr_TR">TV Programları meta verilerini themoviedb.org sitesinden al</summary>
+    <summary lang="zh_CN">从 themoviedb.org 获取剧集信息</summary>
+    <description lang="be_BY">The Movie Database (TMDb) - база даных фільмаў і серыялаў, створаная супольнасцю. Усе даныя дадавалі ўдзельнікі гэтай цудоўнай супольнасці, пачынаючы з 2008. Шматнацыянасць і разнастайнасць даных - тое, чым мы вельмі ганарымся. Калі сказаць прасцей, то мы жывем супольнасцю, і гэта адрознівае нас ад іншых.</description>
+    <description lang="ca_ES">The Movie Database (TMDb) és una base de dades de pel·lícules i sèries creada per la comunitat. Cada dada ha estat afegida per la nostra increïble comunitat que data de 2008. El fort enfoc internacional i la quantitat de dades de TMDb és en gran mesura inigualable i una cosa de la qual estem increïblement orgullosos. En poques paraules, vivim i respirem comunitat i això és precisament el que ens fa diferents.</description>
+    <description lang="cs_CZ">The Movie Database (TMDb) je komunitní databáze filmů a seriálů. Každý kousek dat byl přidán naší úžasnou komunitou sahající až do roku 2008. Silné mezinárodní zaměření a rozsah dat TMDb jsou do značné míry bezkonkurenční a jsme na ně nesmírně hrdí. Jednoduše řečeno, žijeme a dýcháme komunitou, a to je přesně to, co nás odlišuje.</description>
+    <description lang="da_DK">The Movie Database (TMDb) er en community-bygget film- og tv-database. Hvert stykke data er blevet tilføjet af vores fantastiske community, der går tilbage til 2008. TMDbs stærke internationale fokus og bredde af data er stort set uovertruffen, og noget vi er utroligt stolte af. Enkelt sagt, vi lever og ånder community, og det er netop det, der gør os forskellige.</description>
+    <description lang="de_DE">The Movie Database (TMDb) ist eine Film- und TV-Datenbank. Seit 2008 wurde jeder einzelne Datensatz von einer tollen Community beigesteuert. TMDb's starker internationaler Fokus und die Vielfalt der Daten ist weitgehend unübertroffen. Die Betreiber von TMDb sind darauf sehr stolz. Vereinfacht gesagt, lebt und atmet TMDb den Community-Gedanken und das genau macht den Unterschied.</description>
+    <description lang="en_GB">The Movie Database (TMDb) is a community built movie and TV database. Every piece of data has been added by our amazing community dating back to 2008. TMDb's strong international focus and breadth of data is largely unmatched and something we're incredibly proud of. Put simply, we live and breathe community and that's precisely what makes us different.</description>
+    <description lang="es_ES">The Movie Database (TMDb) es una base de datos contruida comunitariamente sobre películas y TV. Cada pedazo de información ha sido añadida por nuestra increible comunidad desde 2008. El sólido enfoque internacional y la amplitud de datos de TMDb son en gran medida incomparables y es algo de lo que estamos increíblemente orgullosos. En pocas palabras, vivimos y respiramos en comunidad y eso es precisamente lo que nos hace diferentes.</description>
+    <description lang="es_MX">The Movie Database (TMDb) es una base de datos de películas y series creada por la comunidad. Cada pedazo de información ha sido agregada por nuestra increíble comunidad desde 2008. El fuerte enfoque internacional de TMDb y la variedad de información son en gran medida incomparables y algo de lo que estamos increíblemente orgullosos. En pocas palabras, vivimos y respiramos comunidad y eso es precisamente lo que nos hace diferentes.</description>
+    <description lang="et_EE">The Movie Database (TMDb) on kogukonna loodud filmide ja sarjade andmebaas. Meie imeline kogukond on lisanud kõik need andmed alates aastast 2008. TMDb tugev rahvusvaheline fookus ja andmete laius on suures osas võrreldamatud ja selle üle oleme ääretult uhked. Lihtsamalt öeldes elame ja hingame kogukonnas ning just see teebki meid erinevaks.</description>
+    <description lang="fi_FI">The Movie Database (TMDB) on yhteisön ylläpitämä, ilmainen ja avoin tietokanta elokuville ja televisiosarjoille. Palvelulla on miljoonia kuukausittaisia käyttäjiä ja sen tehokkaan rajapinnan avulla Kodi ja monet muut mediasovellukset voivat hyödyntää palvelun metatietoja ja mediakuvituksia käyttökokemuksen parantamiseen. Tietokannan vahva painotus kansaivälisyyteen ja kattava tietomäärä on suurelta osin ylivertainen ja olemme tästä erittäin ylpeitä. Yksinkertaisesti sanoen, elämme ja hengitämme yhteisönä ja juuri se tekee meistä erilaisia.</description>
+    <description lang="fr_FR">La base de données The Movie Database (TMDb) est un projet communautaire visant à référencer les informations de films et séries TV. Chaque information a été ajoutée par notre incroyable communauté, et ce depuis 2008. La force internationale du projet TMBd, ainsi que la diversité et l'étendue de ces données l'ont rendu leader dans ce domaine et nous en sommes extrêmement fière. Décrit simplement, nous vivons et respirons communauté et c'est précisément ce qui nous rend différent.</description>
+    <description lang="hr_HR">The Movie Database (TMDb) je izgrađena od strane zajednice filmska i TV baza podataka. Svaki djelić podataka je dodan od strane naše izvanredne zajednice sve od 2008. TMDb snažan međunarodni fokus i širina podataka uglavnom su bez premca i nešto na što smo nevjerojatno ponosni. Jednostavno rečeno, mi živimo i dišemo za zajednicu i upravo to nas čini drugačijima.</description>
+    <description lang="id_ID">The Movie Database (TMDb) adalah database film dan TV yang dibangun oleh komunitas. Setiap bagian data telah ditambahkan oleh komunitas kami yang luar biasa sejak tahun 2008. Fokus internasional TMDb yang kuat dan luasnya data sebagian besar tak tertandingi dan sesuatu yang sangat kami banggakan. Sederhananya, kita hidup dan bernafas dalam komunitas dan justru itulah yang membuat kita berbeda.</description>
+    <description lang="is_IS">The Movie Database (TMDb) er samfélagslegur gagnagrunnur kvikmynda- og sjónvarpsefnis. Hver einasti gagnabútur hefur verið settur inn af frábærum liðsmönnum okkar allar götur síðan 2008. Mikil alþjóðleg áhersla TMDb ásamt breiðu sviði gagna sést óvíða og er eitthvað sem við erum ótrúlega stolt af. Sett fram á einfaldan máta, við lifum og hrærumst í þessu samfélagi og það er nákvæmlega þess vegna sem við erum öðruvísi.</description>
+    <description lang="it_IT">Il Movie Database (TMDb) è un database di film e TV creato dalla comunità. Ogni dato è stato aggiunto dalla nostra straordinaria comunità che risale al 2008. La forte attenzione internazionale e l'ampiezza dei dati di TMDb sono in gran parte impareggiabili e qualcosa di cui siamo incredibilmente orgogliosi. In parole povere, viviamo e respiriamo in comunità ed è proprio questo che ci rende diversi.</description>
+    <description lang="ko_KR">The Movie Database (TMDb)는 영화와 TV 데이터베이스를 구축한 커뮤니티입니다. 모든 자료들은 우리 놀라운 커뮤니티에서 2008년부터 추가돼 온 것들입니다. TMDb의 강력한 국제적 초점과 광범위한 데이터는 타의 추종을 불허하며 우리가 자랑스러워하는 점입니다. 간단히 말해, 우리는 커뮤니티와 살고 호흡하며 그것이 우리가 다른 점입니다.</description>
+    <description lang="lv_LV">The Movie Database (TMDb) ir kopienas veidota filmu un TV seriālu datubāze. Visus datus ir pievienojusi mūsu apbrīnojamā kopiena kopš 2008. gada. TMDb spēcīgais globālais statuss un milzīgais datu apjoms lielā mērā ir nepārspējams, un tas ir ar ko mēs neticami lepojamies. Vienkārši sakot, mēs dzīvojam TMDb sabiedrībā, un tieši tas mūs atšķir no citiem.</description>
+    <description lang="my_MM">Movie Database (TMDb) သည် ကွန်မြူနတီတည်ဆောက်ထားသော ရုပ်ရှင်နှင့် TV ဒေတာဘေ့စ်တစ်ခုဖြစ်သည်။ 2008 ခုနှစ်မှ စတင်ခဲ့သော ကျွန်ုပ်တို့၏ အံ့သြဖွယ်ကောင်းသော အသိုက်အဝန်းမှ ဒေတာအစိတ်အပိုင်းတိုင်းကို ပေါင်းထည့်ထားပါသည်။ TMDb ၏ ခိုင်မာသော နိုင်ငံတကာအာရုံစိုက်မှုနှင့် ဒေတာအကျယ်အဝန်းသည် ကြီးမားစွာမယှဉ်နိုင်ဖြစ်ပြီး ကျွန်ုပ်တို့အတွက် အလွန်ဂုဏ်ယူမိပါသည်။ ရိုးရိုးရှင်းရှင်းပြောရလျှင် ကျွန်ုပ်တို့သည် အသိုက်အဝန်းကို ရှင်သန်နေထိုင်ပြီး ရှူရှိုက်ကာ ၎င်းသည် ကျွန်ုပ်တို့ကို ကွဲပြားစေသည်။</description>
+    <description lang="nl_NL">De Movie Database (TMDb) is een door de gemeenschap gebouwde film- en tv-database. Elk stukje data is toegevoegd door onze geweldige community die teruggaat tot 2008. TMDb's sterke internationale focus en brede waaier aan data is grotendeels ongeëvenaard en iets waar we ongelooflijk trots op zijn. Simpel gezegd, we leven en ademen gemeenschap en dat is precies wat ons anders maakt.</description>
+    <description lang="pl_PL">The Movie Database (TMDb) to baza filmów i programów telewizyjnych zbudowana przez społeczność. Każdy element danych został dodany przez naszą niesamowitą społeczność od 2008 roku. Silna międzynarodowa koncentracja TMDb i zakres danych są w dużej mierze niezrównane i jesteśmy z tego niesamowicie dumni. Mówiąc prościej, żyjemy i oddychamy wspólnotą i właśnie to nas wyróżnia.</description>
+    <description lang="pt_BR">The Movie Database (TMDb) é um banco de dados de filmes e séries criado pela comunidade. Cada um dos pedaços de dados foram adicionados por nossa incrível comunidade desde 2008. O forte foco internacional e a amplitude de dados do TMDb são incomparáveis, algo do qual temos muito orgulho. Resumindo, vivemos e respiramos comunidade e é precisamente isso que nos torna diferentes.</description>
+    <description lang="ru_RU">The Movie Database (TMDb) - это база данных фильмов и сериалов, созданная сообществом. Все данные были добавлены нашим замечательным сообществом, начиная с 2008 года. Международная направленность и широта данных TMDb во многом не имеют себе равных, и это то, чем мы невероятно гордимся. Проще говоря, мы живём и дышим сообществом, и именно это отличает нас от других.</description>
+    <description lang="sv_SE">The Movie Database (TMDb) är en communitybyggd film- och TV-databas. All data har lagts till av våra fantastiska medlemmar ända sen 2008. TMDbs starka internationella fokus och bredd är i stort sett oöverträffad och något vi är väldigt stolta över. Communityn är hjärtat i det hela och det är det som skiljer oss från mängden.</description>
+    <description lang="tr_TR">The Movie Database (TMDb), topluluk tarafından oluşturulmuş bir film ve TV veritabanıdır. Her bir veri parçası, 2008 yılına dayanan muhteşem topluluğumuz tarafından eklenmiştir. TMDb'nin güçlü uluslararası odağı ve veri genişliği büyük ölçüde benzersizdir ve inanılmaz derecede gurur duyduğumuz bir şeydir. Basitçe söylemek gerekirse, topluluk içinde yaşıyor ve nefes alıyoruz ve bizi farklı kılan da tam olarak bu.</description>
+    <description lang="zh_CN">TMDb 是一个由网络社区创建的影视数据库。每一条数据都是由我们令人惊叹的社区添加的，可以追溯到2008年。TMDb 强大的国际关注度和数据广度在很大程度上是无与伦比的，我们对此感到无比自豪。简单地说，我们生活在社区中，呼吸着社区的气息，这正是我们与众不同的原因。</description>
+  </extension>
+</addon><addon id="plugin.program.autowidget" name="AutoWidget" version="3.7.0" provider-name="drinfernoo">
+    <requires>
+        <import addon="script.module.pil" />
+        <import addon="script.module.six" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>executable video music</provides>
+    </extension>
+    
+    <extension point="xbmc.service" library="service.py" />
+    
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <item library="context_add.py">
+                <label>$ADDON[plugin.program.autowidget 30003]</label>
+                <visible>String.IsEqual(Window(10000).Property(context.autowidget),true)</visible>
+            </item>
+            <item library="context_refresh.py">
+                <label>$ADDON[plugin.program.autowidget 30006]</label>
+                <visible>String.Contains(ListItem.FolderPath, plugin://plugin.program.autowidget)</visible>
+            </item>
+			<item library="context_refresh_single.py">
+                <label>$ADDON[plugin.program.autowidget 30046]</label>
+                <visible>!String.IsEmpty(ListItem.Property(autoID)) + [!String.IsEqual(ListItem.Property(autoAction),static) + !String.IsEqual(ListItem.Property(autoAction),merged)]</visible>
+            </item>
+			<item library="clear_cache_single.py">
+                <label>$ADDON[plugin.program.autowidget 30116]</label>
+                <visible>!String.IsEmpty(ListItem.Property(autoCache))</visible>
+            </item>
+        </menu>
+    </extension>
+    
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="en_GB">Automatically changes out widgets</summary>
+        <description lang="en_GB">Automatically changes out widgets on the homescreen for a more interesting browsing experience.</description>
+	<summary lang="es_ES">Cambia los widgets automáticamente</summary>
+	<description lang="es_ES">Cambia los widgets en la pantalla de inicio automáticamente para una experiencia de navegación más interesante.</description>
+	<platform>all</platform>
+        <license>LGPL-3.0</license>
+        <website>https://www.github.com/drinfernoo/</website>
+        <source>https://www.github.com/drinfernoo/plugin.program.autowidget/</source>
+        <news>
+3.7.0
+ - Optimize caching for performance and reliability
+ - Fix direct shortcuts
+ - Fix Settings Shortcuts for dependency add-ons
+3.6.1
+ - Fix playing direct shortcuts for some items
+ - Fix cache clearing again
+3.6.0
+ - Convert all file and path handling to xbmcvfs
+ - Add more feedback and granular controls during backup/restore
+3.5.1
+ - Fix sorting bug with higher group counts
+3.5.0
+ - Allow bulk operations in some groups
+ - More informative dialogs
+ - Allow manually sorting groups in "My Groups"
+ - Fixes for direct shortcuts
+ - Update "version" attribute in metafiles when updating
+3.4.2
+ - Some fixes for constant notification
+3.4.1
+ - Fix clearing cache from settings
+3.4.0
+ - Rework caching mechanism
+ - Add more notifications of progress
+ - Add placeholder items when no content is loaded
+3.3.7
+ - Delay widget updates during library scans or when in media views
+ - Fix widget cleaning scan for skins which don't use Skin Shortcuts
+ - Fix refreshing widgets created before 3.3.0
+ - Add more content type choices in editor dialog
+3.3.6
+ - Fix "Next Page" for Python 2.7
+3.3.5
+ - Better handling of error and empty states
+ - Better handling of "Next Page" items
+ - Fix "Active Widgets" menu
+ - Delay library updates when inside media views
+3.3.4
+ - Fix "Next Page" localizations
+3.3.3
+ - Fix "Clear Cache"
+3.3.2
+ - Fix bug when paths return no items
+3.3.1
+ - Fix bug when Skin Shortcuts is not installed
+ - More improvements to page item handling
+3.3.0
+ - Add "Copy Group" in group context menu
+ - Add "Create New ... Group" in "My Groups" menu
+ - Add "Clear Cache" in "Tools" menu
+ - Add "Refresh Widget" to widget context menu
+ - Add "Clear Cache" to widget context menu
+ - Add rudimentary error item for failed widgets
+ - Add "Icon Packs" for library widgets from genres, studios, and countries
+ - Remove dependency on Kodi Six
+ - Allow editing content type
+ - Allow Cycling Widgets to pull from a subset of paths
+ - Support cast thumbnails for Kodi N
+ - Fix translatePath reference again
+ - Faster and more robust item creation
+ - Make `.widget` files much simpler
+ - Better support for library paths
+ - Better support for music
+3.2.3
+ - Add English (US) and Portugese localizations
+3.2.2
+ - Add more localizations
+ - Better "Next Page" detection
+ - Support for "Next Page" items in other languages
+3.2.1
+ - Fix for items with no artwork
+3.2.0
+ - Add setting to prefer episodes/shows when removing duplicates
+ - Rework duplicate removal
+ - Fix bug in Active Widgets editor dialog
+ - Fix landscape art for some items
+ - Fix paged widgets not resetting on boot
+ - Format with black
+3.1.9
+ - Fix error with translatePath
+3.1.8
+ - Fix resume progress on items
+3.1.7
+ - Fix widget cleaning
+ - Fix Active Widgets menu
+3.1.6
+ - Fix detection of JSON-RPC version
+3.1.5
+ - Fix editor dialog
+3.1.4
+ - Fix settings shortcuts
+ - Fix some Unicode errors
+ - Fix some dialog labels in editor
+3.1.3
+ - Fix hashing in Matrix
+3.1.2
+ - Fix "Clear Cache"
+3.1.1
+ - Fixes for cache mechanism
+ - Add "Force Refresh Widgets" to context menu for AutoWidget items
+3.1.0
+ - Improved background caching for paths that change frequently
+ - Fix unneeded refreshes
+ - Fix caching on merged widgets
+ - Fix more Unicode errors
+3.0.2
+ - Fix bug in background caching
+3.0.1
+ - Fix bug when adding paths
+3.0.0
+ - Huge speed improvements thanks to @djay's background caching implementation
+ - Fix merged widget duplicate removal
+2.3.7
+ - Unicode fixes
+ - Fix method calls
+ - Fix separator in menus
+ - Fix logging in Kodi 19
+ - Update Spanish translation
+2.3.6
+ - Fix separator in shortcut groups
+2.3.5
+ - Fix various shortcut- and refresh-related bugs
+ - Fix error when path contained no items
+ - Add more debug logging
+ - Add widget ID as ListItem property (autoID)
+ - Reduce library updates (again)
+2.3.4
+ - Fix logging error
+2.3.3
+ - Fix shortcuts to Android apps
+2.3.2
+ - Fix error in debug logging logic
+2.3.1
+ - Fix editing and adding new groups
+ - Overall cleanup
+ - Trim as many library updates as possible
+2.3.0
+ - Huge simplification of plugin paths
+ - Speed improvements
+ - Better detection for "Next Page" items in various add-ons
+ - Add dedicated debug log
+ - Allow 'path' to be editing for static widgets
+2.2.0
+ - Reduce library updates to improve overall speed
+ - Sort "Active Widgets" by most recently refreshed
+ - Fix any straggling widget errors, I hope :D
+2.1.6
+ - Fix "Next Page" error
+2.1.5
+ - Fix non-merged paths :D
+2.1.4
+ - Support more add-ons' "Next Page" items
+ - Fix merged paths
+2.1.3
+- Fixes for Unicode characters in path labels
+- Fix for viewing groups in Kodi 17.x
+- Change "Icon Color" to a per-path basis
+2.1.2
+ - Add per-widget icon color
+2.1.1
+ - Fix "Icon Color"
+2.1.0
+ - New artwork for add-on
+ - Add icon coloring
+ - Improved "Active Widgets" menu
+ - Added "Clean Old Widget Files" shortcut in Tools
+ - Fix shortcut paths
+ - Fix missing InfoLabels
+2.0.2
+ - Make artwork for groups and paths more consistent
+2.0.1
+ - Add "Toggle Skin Debugging" shortcut
+2.0.0
+ - Rewrite most of add-on functions
+ - Add "Static Path" option
+ - Add "Merged Path" option
+ - Add "Paged Widgets"
+ - Revamp editor dialog
+ - More complete skin compatibility
+ - More miscellaneous fixes
+1.6.8
+ - Add setting for notification sound
+1.6.7
+ - Fix crash when window cannot be detected. Notably fixes Disney+ support.
+1.6.6
+ - Fix extract location
+1.6.5
+ - Add backup/restore features
+1.6.4
+ - Fix more rogue refreshes
+ - Fix wording in Spanish translation (again, thanks to @roliverosc)
+1.6.3
+ - Update settings localizations
+1.6.2
+ - Fix bug that caused Skin Shortcuts to not be able to rebuild the skin
+1.6.1
+ - Fix bug with shortcut widgets being "converted"
+1.6.0
+ - Android App shortcut support (thanks to @Sandmann79)
+ - Add Spanish translation (thanks to @roliverosc)
+ - Fix bug with empty action nodes
+ - Reduce refreshes
+ - Prettify .props file output
+1.5.5
+ - Fix regex for labels in some skins
+1.5.4
+ - Fix recursion crash during refresh
+1.5.3
+ - Fix indent error
+1.5.2
+ - Fix shortcut calls for YouTube
+1.5.1
+ - Fix error in editor dialog
+ - Fix changelog
+1.5.0
+ - Add "Active Widgets" menu
+ - Consistency fixes during initialization and refresh
+ - Allow adding playable items as shortcuts
+ - Fix crashes in Krypton
+ - Fix crashes from invalid group/widget files
+ - Fix Unicode compatibility
+1.4.5
+ - Refresh Shortcut widgets Automatically
+ - Add "Next Path" widget action
+ - Add "Clone" and "Explode" widget modes
+ - Allow refreshing between 15m-2h, at 15m intervals
+1.4.3
+ - Add context menu on more items
+ - Fix some log spam
+ - Catch more errors from invalid files
+ - Fix "Settings" shortcuts
+ - Gracefully handle remote artwork
+ - Use special paths for artwork
+1.4.2
+ - Fix bug in conversion
+1.4.1
+ - Fix bug in migration
+1.4.0
+ - Add "Clean Old References" shortcuts
+ - Change main menu layout
+1.3.9
+ - Fix label bug in Embuary (and maybe elsewhere)
+1.3.8
+ - Add "Wipe Add-on Data" shortcuts
+ - Allow Unicode characters in labels
+1.3.7
+ - Fix typo in path handling
+1.3.6
+ - Fix error handling
+1.3.5
+ - Add extra error checking for file operations
+1.3.4
+ - Add proper migration from old JSON to current
+1.3.3
+ - Rewrite editor dialog
+ - Fix path conversion for skin string paths
+1.3.2
+ - Fixes and cleanup in editor dialog
+1.3.1
+ - Cleanup skin string conversion
+1.3.0
+ - Add group editing dialog
+ - Non-Skin Shortcuts skin support
+ - Fix issues with groups and paths with the same name
+ - Fix settings shortcuts
+ - Add rudimentary JSON migration
+1.2.5
+ - Update some skin localizations
+ - Add more widget artwork
+ - Update documentation
+1.2.3
+ - Fix paths made from add-on browser
+ - Add ability to set plot
+1.2.2
+ - Fix group dialog calls
+1.2.1
+ - Fix imports
+1.2.0
+ - Better handling of art
+ - Better add-on art added
+ - Redesigned path addition dialog
+ - Settings shortcuts added
+1.1.2
+ - Add art editing for paths
+ - Add group renaming
+1.1.1
+ - Add setting to disable notification
+1.1.0
+ - Remove Skin Shortcuts dependency
+ - Expand context menu options
+ - Add support for skins with "basic" Skin Shortcuts integration
+ - Add setting to pause AutoWidget's service
+1.0.7
+ - Fix context menu option not showing
+1.0.6
+ - Fix paths not saving
+1.0.5
+ - Raise required Skin Shortcuts version to  1.0.19
+1.0.4
+ - Allow custom labels
+ - Add removal notifications    
+1.0.3
+ - Fix shortcuts and widgets added from context menu
+1.0.2
+ - Fix crash from non-XML files
+1.0.1
+ - Fix crash from non-existent context menu setting
+1.0.0
+ - First stable release
+        </news>
+        <assets>
+            <icon>resources/media/icon.png</icon>
+            <fanart>resources/media/fanart.png</fanart>
+            <poster>resources/media/poster.png</poster>
+            <banner>resources/media/banner.png</banner>
+            <clearlogo>resources/media/clearlogo.png</clearlogo>
+        </assets>
+    </extension>
+</addon><addon id="plugin.program.openwizard" name="[COLOR limegreen]Open[/COLOR]Wizard" version="2.0.7" provider-name="drinfernoo, slamious">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" />
+        <import addon="script.module.six" />
+        <import addon="script.kodi.android.update" optional="true" version="1.1.7" />
+        <import addon="script.speedtester" optional="true" version="1.1.2" />
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+    
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">[COLOR limegreen]Open[/COLOR]Wizard</summary>
+        <description lang="en">[COLOR limegreen]Open[/COLOR]Wizard offers many maintenance features, selective add-on data saving, and automated build installs.</description>
+        <platform>all</platform>
+        <reuselanguageinvoker>false</reuselanguageinvoker>
+        <source>https://www.github.com/a4k-openproject/plugin.program.openwizard/</source>
+        <news>
+2.0.7
+ - Fix Error when using default log settings
+2.0.6
+ - Fix regex for formatting tags
+ - Fix theme selection after build install
+ - Fix downloading into invalid path
+2.0.5
+ - Add Enable All Add-ons after Build Install
+2.0.4
+ - Fix leftover broken dialogs
+2.0.3
+ - Don't show previous version builds in Matrix
+2.0.2
+ - Replace remaining occurences of LOGNOTICE
+2.0.1
+ - Add attribution to @slamious
+2.0.0
+ - Initial Matrix support
+1.4.5
+ - Fix bugs with unintended files being cleared`
+1.4.4
+ - Transfer ownership
+1.4.3
+ - Fix missing artwork on items (thanks @xulek)
+1.4.2
+ - A few bug fixes
+1.4.1
+ - Fix crash on fresh installs
+1.4.0
+ - Fix APK Installer
+ - Convert official APK downloader to use official script
+ - Add scrollbar to Save Data dialog
+ - Fix skin path in build info
+1.3.7
+ - Fix import lock error
+1.3.6
+ - Fix notifications
+ - Cleanup log files
+1.3.5
+ - Add Fen
+ - Add Shadow
+ - Fix restoring saved data every boot
+1.3.4
+ - Fix bad indent
+1.3.3
+ - Fix Unicode characters in notification window
+1.3.2
+ - Fix build restore
+1.3.1
+ - Fix "Keep Login Info" menu        
+1.3.0
+ - Fix formatting of saved restore times
+ - Fix local build zip being deleted on restore
+ - Add YouTube API saving
+ - Remove broken context menus
+ - Fix repeating dialogs from shortcuts/favorites
+ - Remove "Normal Install" option
+ - Add "Logging Tools" menu
+ - Add option to save guisettings.xml
+ - Add TMDbHelper Fanart.tv saving
+ - More fixes for OS X
+ - Fix Seren Fanart.tv saving
+1.2.9
+ - Fix NuMb3r5 cache clearing
+ - Fix hang during repo force check
+ - Fix logins being restored every startup
+ - Fix some file permission errors
+ - Fix OS X backup errors
+1.2.8
+ - Add Gaia PM OAuth
+ - Fix binary add-on restoration
+ - Fix some issues with old settings
+ - Fix timing on many startup tasks
+1.2.7
+ - Add TheMovieDb Helper
+1.2.6
+ - Fix Seren PM OAuth    
+1.2.5
+ - Fix typo in debridit.py
+1.2.4
+ - Cover more edge cases during binary detection
+1.2.3
+ - Fix notification ID bug
+1.2.2
+ - Add Seren PM OAuth
+ - Add AllDebrid spport for Gaia, Seren, ResolveURL, and URLResolver
+1.2.1
+ - General bug fixes
+1.2.0
+ - Silence save data notifications on startup
+ - Fix Addon Installer menu
+ - Convert addons.txt to JSON format
+1.1.1
+ - Fix error on advancedsettings categories
+1.1.0
+ - Add back advancedsettings area under System Tweaks/Fixes
+ - Rudimentary version of advancedsettings editor. Can currently only handle editing pre-existing tags under 'cache' and 'network'.
+ - Convert advanced.txt to JSON format
+ - Add "built-in" advancedsettings.xml presets
+1.0.3
+ - Update artwork
+ - Fix rare issues with URLs not working
+ - Fix repetitive build prompt (again)
+ - Fix builds downloading twice
+ - Fix title coloring on notifications
+ - Fix auto repo install
+ - Fix first run settings not being respected
+1.0.2
+ - Fix crash in login menu
+ - Fix auto install repo
+1.0.1
+ - Fix double startup
+ - Fix repetitive build prompt
+ - Fix main menu not opening on Krypton
+ - Fix notification timeout
+ - Fix crash in Trakt menu
+1.0.0
+ - Initial Commit
+        </news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
+    </extension>
+</addon><addon id="plugin.video.fen" name="Fen" provider-name="Tikipeter" version="3.2.23">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.requests" version="2.19.1" />
+    </requires>
+    <extension library="resources/lib/fen.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension library="resources/lib/service.py" point="xbmc.service" />
+    <extension library="resources/lib/" point="xbmc.python.module" />
+    <extension point="xbmc.addon.metadata">
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+        <summary lang="en">Access your content from Furk, Easynews and Debrid Clouds.</summary>
+        <description lang="en">This add-on is intended for advanced Kodi users only. You must own the content of any media you play through this addon.</description>
+        <platform>all</platform>
+		<disclaimer lang="en">The author of this addon does not host any of the content which is found and has no affiliation with any of the content providers.</disclaimer>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <assets>
+            <icon>resources/media/fen_icon.png</icon>
+            <fanart>resources/media/fen_fanart.png</fanart>
+        </assets>
+        <news>INFO: For latest changes see Changelog within Tools of add-on.</news>
+    </extension>
+</addon><addon id="plugin.video.themoviedb.helper" version="4.10.14" name="TheMovieDb Helper" provider-name="jurialmunkey">
+<requires>
+  <import addon="xbmc.python" version="3.0.0" />
+  <import addon="script.module.requests" version="2.9.1" />
+  <import addon="script.module.pil" version="1.1.7" />
+  <import addon="script.module.addon.signals" version="0.0.6" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="plugin.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.python.script" library="script.py" />
+<extension point="xbmc.service" library="service.py" />
+<extension point="kodi.context.item">
+  <menu id="kodi.core.main">
+    <item library="context.py" args="playusing">
+      <label>$ADDON[plugin.video.themoviedb.helper 32322]</label>
+      <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.playusing))</visible>
+    </item>
+    <item library="context.py" args="related">
+      <label>$ADDON[plugin.video.themoviedb.helper 32235]</label>
+      <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.related))</visible>
+    </item>
+    <item library="context.py" args="addlibrary">
+      <label>$LOCALIZE[20444]</label>
+      <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.addlibrary))</visible>
+    </item>
+    <item library="context.py" args="trakt">
+      <label>$ADDON[plugin.video.themoviedb.helper 32295]</label>
+      <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.trakt))</visible>
+    </item>
+    <item library="context.py" args="refresh">
+      <label>$ADDON[plugin.video.themoviedb.helper 32233]</label>
+      <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.refresh))</visible>
+    </item>
+    <item library="context.py" args="artwork">
+      <label>$ADDON[plugin.video.themoviedb.helper 32222]</label>
+      <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.artwork))</visible>
+    </item>
+    <item library="context.py" args="sorting">
+      <label>$ADDON[plugin.video.themoviedb.helper 32309]</label>
+      <visible>!String.IsEmpty(ListItem.Property(tmdbhelper.context.sorting))</visible>
+    </item>
+  </menu>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <reuselanguageinvoker>false</reuselanguageinvoker>
+  <summary lang="en_GB">TheMovieDb Helper - Now With Trakt Support!</summary>
+  <summary lang="es_ES">TheMovieDb Helper - ¡Ahora con soporte para Trakt!</summary>
+  <summary lang="fr_FR">TheMovieDb Helper - Maintenant avec support Trakt!</summary>
+  <description lang="en_GB">TheMovieDb Helper provides details about movies, tvshows and actors from TMDb. Users can access a variety of lists from TMDb and Trakt.</description>
+  <description lang="es_ES">TheMovieDb Helper proporciona detalles sobre películas, programas de televisión y actores de TMDb. Los usuarios pueden acceder a una variedad de listas desde TMDb y Trakt.</description>
+  <description lang="fr_FR">TheMovieDb Helper fournit des détails sur les films, les émissions de télévision et acteurs de TMDb. Les utilisateurs peuvent accéder à une variété de listes TMDb et Trakt.</description>
+  <disclaimer lang="en_GB">Provided by TheMovieDb and Trakt.</disclaimer>
+  <disclaimer lang="es_ES">Proporcionado por TheMovieDb y Trakt</disclaimer>
+  <disclaimer lang="fr_FR">Fourni par TheMovieDb et Trakt.</disclaimer>
+  <license>GPL-3.0-or-later</license>
+  <website>https://github.com/jurialmunkey/plugin.video.themoviedb.helper</website>
+  <forum>https://forum.kodi.tv/showthread.php?tid=345847</forum>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources/screenshot-01.jpg</screenshot>
+    <screenshot>resources/screenshot-02.jpg</screenshot>
+  </assets>
+</extension>
+</addon><addon id="plugin.video.umbrella" name="Umbrella" provider-name="Umbrella" version="6.6.45">
+	<requires>
+		<import addon="xbmc.python" version="3.0.0" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.beautifulsoup4" />
+		<import addon="script.module.metahandler" version="5.0.1a" optional="true" />
+		<import addon="plugin.video.youtube" optional="true" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="umbrella.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="kodi.context.item">
+		<menu id="kodi.core.main">
+			<item library="resources\lib\context\addtoLibrary.py">
+				<label>$INFO[Window(home).Property(context.umbrella.showUmbrella)]Add to Library</label>
+				<visible>
+					!String.IsEmpty(Window(home).Property(context.umbrella.addtoLibrary)) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.umbrella/) +
+					String.IsEqual(ListItem.Property(isUmbrella_widget),true) +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\addtoFavourite.py">
+				<label>$INFO[Window(home).Property(context.umbrella.showUmbrella)]Add/Remove Favourite</label>
+				<visible>
+					!String.IsEmpty(Window(home).Property(context.umbrella.addtoFavourite)) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.umbrella/) +
+					String.IsEqual(ListItem.Property(isUmbrella_widget),true) +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\playTrailer.py">
+				<label>$INFO[Window(home).Property(context.umbrella.showUmbrella)]Play Trailer</label>
+				<visible>
+					!String.IsEmpty(Window(home).Property(context.umbrella.playTrailer)) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.umbrella/) +
+					String.IsEqual(ListItem.Property(isUmbrella_widget),true) +
+					[String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\playTrailerSelect.py">
+				<label>$INFO[Window(home).Property(context.umbrella.showUmbrella)]Play Trailer (Select)</label>
+				<visible>
+					!String.IsEmpty(Window(home).Property(context.umbrella.playTrailerSelect)) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.umbrella/) +
+					String.IsEqual(ListItem.Property(isUmbrella_widget),true) +
+					[String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\traktManager.py">
+				<label>$INFO[Window(home).Property(context.umbrella.showUmbrella)]Trakt Manager</label>
+				<visible>
+					!String.IsEmpty(Window(home).Property(context.umbrella.traktManager)) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.umbrella/) +
+					String.IsEqual(ListItem.Property(isUmbrella_widget),true) +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\clearProviders.py">
+				<label>$INFO[Window(home).Property(context.umbrella.showUmbrella)]Clear Providers</label>
+				<visible>
+					[!String.IsEmpty(Window(home).Property(context.umbrella.clearProviders)) +
+					String.StartsWith(ListItem.FolderPath,plugin://plugin.video.umbrella/?action=play) +
+					String.IsEqual(ListItem.Property(isUmbrella_widget),true) +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]] |
+					[String.Contains(Container.FolderPath,videodb://) +
+					[String.Contains(Container.ListItem.Path,Window(home).Property(umbrella.movieLib.path)) | String.Contains(Container.ListItem.Path,Window(home).Property(umbrella.tvLib.path))] +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]]
+				</visible>
+			</item>
+			<item library="resources\lib\context\clearBookmark.py">
+				<label>$INFO[Window(home).Property(context.umbrella.showUmbrella)]Clear Item Bookmark</label>
+				<visible>
+					!String.IsEmpty(Window(home).Property(context.umbrella.clearBookmark)) +
+					String.StartsWith(ListItem.FolderPath,plugin://plugin.video.umbrella/?action=play) +
+					String.IsEqual(ListItem.Property(isUmbrella_widget),true) +
+					ListItem.IsResumable +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\rescrape.py">
+				<label>$INFO[Window(home).Property(context.umbrella.showUmbrella)]Rescrape Item</label>
+				<visible>
+					[!String.IsEmpty(Window(home).Property(context.umbrella.rescrape)) +
+					String.StartsWith(ListItem.FolderPath,plugin://plugin.video.umbrella/?action=play) +
+					String.IsEqual(ListItem.Property(isUmbrella_widget),true) +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]]
+				</visible>
+			</item>
+			<item library="resources\lib\context\addLibtoFavourite.py">
+				<label>$INFO[Window(home).Property(context.umbrella.showUmbrella)]Add/Remove Favourite</label>
+				<visible>
+					[String.Contains(Container.FolderPath,videodb://) | String.Contains(Container.ListItem.FolderPath,videodb://)] +
+					[String.Contains(Container.ListItem.Path,Window(home).Property(umbrella.movieLib.path)) | String.Contains(Container.ListItem.Path,Window(home).Property(umbrella.tvLib.path))] +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\libRescrape.py">
+				<label>$INFO[Window(home).Property(context.umbrella.showUmbrella)]Rescrape Lib Item</label>
+				<visible>
+					[String.Contains(Container.FolderPath,videodb://) | String.Contains(Container.ListItem.FolderPath,videodb://)] +
+					[String.Contains(Container.ListItem.Path,Window(home).Property(umbrella.movieLib.path)) | String.Contains(Container.ListItem.Path,Window(home).Property(umbrella.tvLib.path))] +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\playFromHere.py">
+				<label>$INFO[Window(home).Property(context.umbrella.showUmbrella)]Play from here</label>
+				<visible>
+					!String.IsEmpty(Window(home).Property(context.umbrella.playFromHere)) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.umbrella/) +
+					String.IsEqual(ListItem.Property(isUmbrella_widget),true) +
+					String.IsEqual(ListItem.dbtype,episode)
+				</visible>
+			</item>
+			<item library="resources\lib\context\autoPlay.py">
+				<label>$INFO[Window(home).Property(context.umbrella.showUmbrella)]Auto Play</label>
+				<visible>
+					String.IsEmpty(Window(home).Property(umbrella.autoPlay.enabled)) +
+					!String.IsEmpty(Window(home).Property(context.umbrella.autoPlay)) +
+					String.StartsWith(ListItem.FolderPath,plugin://plugin.video.umbrella/?action=play) +
+					String.IsEqual(ListItem.Property(isUmbrella_widget),true) +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\sourceSelect.py">
+				<label>$INFO[Window(home).Property(context.umbrella.showUmbrella)]Source Select</label>
+				<visible>
+					!String.IsEmpty(Window(home).Property(umbrella.autoPlay.enabled)) +
+					!String.IsEmpty(Window(home).Property(context.umbrella.sourceSelect)) +
+					String.StartsWith(ListItem.FolderPath,plugin://plugin.video.umbrella/?action=play) +
+					String.IsEqual(ListItem.Property(isUmbrella_widget),true) +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\findSimilar.py">
+				<label>$INFO[Window(home).Property(context.umbrella.showUmbrella)]Find Similar</label>
+				<visible>
+					!String.IsEmpty(Window(home).Property(context.umbrella.findSimilar)) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.umbrella/) +
+					String.IsEqual(ListItem.Property(isUmbrella_widget),true) +
+					[String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,movie)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\browseSeries.py">
+				<label>$INFO[Window(home).Property(context.umbrella.showUmbrella)]Browse Series</label>
+				<visible>
+					!String.IsEmpty(Window(home).Property(context.umbrella.browseSeries)) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.umbrella/) +
+					String.IsEqual(ListItem.Property(isUmbrella_widget),true) +
+					[String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,tvshow)]
+				</visible>
+			</item>
+			<item library="resources\lib\context\browseEpisodes.py">
+				<label>$INFO[Window(home).Property(context.umbrella.showUmbrella)]Browse Episodes</label>
+				<visible>
+					!String.IsEmpty(Window(home).Property(context.umbrella.browseEpisodes)) +
+					String.StartsWith(ListItem.path,plugin://plugin.video.umbrella/) +
+					String.IsEqual(ListItem.Property(isUmbrella_widget),true) +
+					String.IsEqual(ListItem.dbtype,episode)
+				</visible>
+			</item>
+		</menu>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.python.module" library="resources/lib/" />
+	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>true</reuselanguageinvoker>
+		<summary lang="en">[B]Umbrella[/B] - We do not host any of the contents streamed</summary>
+		<description lang="en">[B]Umbrella[/B][CR] This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR]The author does not host any of the content in this addon and takes no responsibility for content found. We do not know anything about a lab under Raccoon City. Umbrella is not actually an umbrella and will not shield you from rain.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum />
+		<website>https://umbrellaplug.github.io</website>
+		<source>https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/</source>
+		<disclaimer lang="en">The author of this addon does not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot>resources/screenshots/screenshot001.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot002.jpg</screenshot>
+			<screenshot>resources/screenshots/screenshot003.jpg</screenshot>
+		</assets>
+		<news>
+[B]Update - v6.6.45 - February 1st, 2024[/B]
+--[Enhancement] Added episode type label.
+--[Fix] Changed scrobble on pause to only happen if before marking watched percentage.
+		</news>
+	</extension>
+
+</addon><addon id="repository.addons4kodi" name="Addons4Kodi Repository" version="2.1" provider-name="A4K">
+	<extension point="xbmc.addon.repository" name="Addons4Kodi Repository">
+        <dir minversion="18.0">
+            <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.addons4kodi/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.addons4kodi/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.addons4kodi/master/zips/</datadir>
+        </dir>
+        <dir minversion="18.0" maxversion="18.9.9">
+            <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
+        </dir>
+        <dir minversion="18.0" maxversion="18.9.9">
+            <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openwizard/master/leia/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openwizard/master/leia/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openwizard/master/leia/zips/</datadir>
+        </dir>
+        <dir minversion="19.0">
+            <info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openwizard/master/matrix/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openwizard/master/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openwizard/master/matrix/zips/</datadir>
+        </dir>
+        <dir minversion="18.0">
+            <info>https://raw.githubusercontent.com/newt-sc/a4kStreaming/master/packages/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/newt-sc/a4kStreaming/master/packages/addons.xml.crc</checksum>
+            <datadir>https://github.com/newt-sc/a4kStreaming/archive</datadir>
+            <artdir>https://github.com/newt-sc/a4kStreaming/releases/download/v0.1.0</artdir>
+        </dir>
+        <dir minversion="18.0">
+            <info>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/newt-sc/a4kSubtitles/master/packages/addons.xml.crc</checksum>
+            <datadir>https://github.com/newt-sc/a4kSubtitles/archive</datadir>
+            <artdir>https://github.com/a4k-openproject/a4kSubtitles/releases/download/v0.0.13</artdir>
+        </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Addons4Kodi Repository</summary>
+		<description>The official repo of /r/Addons4Kodi!.</description>
+		<disclaimer />
+		<platform>all</platform>
+	</extension>
+</addon><addon id="repository.autowidget" name="AutoWidget Repository" version="1.1" provider-name="drinfernoo">
+    <extension point="xbmc.addon.repository" name="AutoWidget Repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/drinfernoo/plugin.program.autowidget/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/drinfernoo/plugin.program.autowidget/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/drinfernoo/plugin.program.autowidget/repo/zips/</datadir>
+        </dir>
+    </extension>
+    
+    <extension point="xbmc.addon.metadata">
+        <summary>AutoWidget</summary>
+        <description>The official home of AutoWidget.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+    </extension>
+</addon><addon id="repository.cocoscrapers" name="CocoScrapers Repository" version="1.0.0" provider-name="CocoScrapers">
+    <extension point="xbmc.addon.repository" name="CocoScrapers Repository">
+        <dir minversion="19.0">
+            <info compressed="false">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/CocoJoe2411/repository.cocoscrapers/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>CocoScrapers Repository</summary>
+        <description>Unofficial add-ons repository</description>
+    </extension>
+</addon><addon id="repository.umbrella" name="Umbrella Repository" version="2.2.4" provider-name="Umbrella">
+    <extension point="xbmc.addon.repository" name="Umbrella Repository">
+        <dir minversion="18.9.701" maxversion="19.5">
+            <info compressed="false">https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/matrix/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/matrix/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/matrix/zips/</datadir>
+        </dir>
+	    <dir minversion="19.8.0">
+            <info compressed="false">https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/nexus/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/nexus/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/umbrellaplug/umbrellaplug.github.io/master/nexus/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Umbrella Repository</summary>
+        <description>Repository for the Umbrella video plugin.</description>
+        <disclaimer />
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon></addons>
