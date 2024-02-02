@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="DeadByDawnDBD" name="DBD Repo" version="0.1" provider-name="DeadByDawnDBD">
-    <extension point="xbmc.addon.repository" name="Example Repository">
+<addon id="DeadByDawnDBD" name="DeadByDawnDBD" version="0.1" provider-name="DeadByDawnDBD">
+    <extension point="xbmc.addon.repository" name="DeadByDawnDBD">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/DeadByDawnDBD/DeadByDawnDBD/master/repo/zips/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/DeadByDawnDBD/DeadByDawnDBD/master/repo/zips/addons.xml.md5</checksum>
